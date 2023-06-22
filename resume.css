@@ -1,0 +1,271 @@
+body {
+  margin: 0px;
+  font size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+  height: 65vh;
+  opacity: 0.8;
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+ 
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+  color: lightgrey;
+  border-bottom: 1px solid white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* Name and Social Icons*/
+#name-social-container {
+  margin-top: 20vh;
+}
+
+#my-name {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  color: white;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons li {
+  border-radius: 50%;
+}
+
+.social-icons li:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a img {
+  width: 1rem;
+  padding: 10px;
+}
+
+/* About section */
+#about{
+ /* margin-top: */
+ height: auto;
+ width: 100%;
+ position: relative;
+}
+
+#p1{
+  text-align: center;
+  color: gray;
+}
+
+#my-image{
+  height: 10rem;
+  width: 10rem;
+  margin: auto;
+  margin-top: -13vh;
+}
+
+ #my-image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+} 
+
+/*Skills Section*/
+.section-heading{
+  text-align: center;
+}
+
+#skills{
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.skills-display {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 30px;
+  display:flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill-progress {
+  width: 11rem;
+  height: 2.2rem;
+  background-color: lightgrey;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+  margin: 25px;
+  overflow: hidden;
+  /* padding: 5px; */
+}
+
+.skill-progress > div {
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name span {
+  color: white;
+  font-size: 1rem;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+
+/* timeline */
+.timeline{
+  position: relative;
+  width: 75%;
+  left: 12%;
+  border: 2px solid black;
+  
+}
+
+.timeline-box{
+  position: relative;
+  width: 40%;
+  margin: 5px;
+  left: 5%;
+  min-height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.timeline-box:nth-child(2n){
+  left: 53%;
+}
+
+.institute{
+  padding: 5%;
+}
+
+.institute h2{
+  color: #243556
+}
+#college{
+  padding: 5%;
+}
+#schooling h2{
+  color: #243556
+}
+
+.timeline-divider{
+  position: absolute;
+  height: 75%;
+  width: 0;
+  border: 3px dashed black;
+  top: 10%;
+  left: 50%;
+}
+
+.timeline-traveller{
+  position: sticky;
+  top: 40%;
+  transform: rotate(90deg);
+}
+
+/* Contact */
+#contact{
+  background-image: url(./image/pexels-pixabay-531880.jpg);
+  background-position: 50% 100%;  
+  background-attachment: fixed;
+}
+.contacts1{
+  margin: auto;
+  width: 50%;
+}
+
+.contacts{
+  background-color: rgba(0,0,0, 0.4) ;
+  box-shadow: 8px 8px 8px 8px rgba(0,0,0, 0.3);
+  color: aliceblue;
+  border-style: 3px solid;
+  border-radius: 10px;
+}
+
+#contact-heading{
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0,0,0, 0.4)
+}
+
+#contact-form{
+  display:block;
+  padding: 5%;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+#contact-form input{
+  padding: 5px;
+}
+
+
+.forms{
+  /* background-color: lightcoral; */
+  margin: ;
+}
+
+#message{
+  font-size: x-large;
+}
+
+
+
+#details{
+  color: #fff;
+  margin: auto;
+  width: 60%;
+  background-color: rgba(0,0,0, 0.4);
+  border-radius: 10px;
+  border-style: 3px solid rgba(0,0,0,00.5rem);
+  box-shadow: 5px  5px 5px rgba(0,0,0,0.3);
+}
+
+.details1{
+  margin: 10%;
+  padding: 10%;
+}
+
+.details1 h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#details p{
+  font-size: 20px;
+  font-style: italic;
+}
